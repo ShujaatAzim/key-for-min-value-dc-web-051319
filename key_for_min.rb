@@ -10,5 +10,3 @@ def key_for_min_value(name_hash)
   end
     return min_key
 end
-
-#clients.select{|key, hash| hash["client_id"] == "2180" }
