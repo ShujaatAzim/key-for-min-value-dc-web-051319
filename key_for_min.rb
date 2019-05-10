@@ -2,15 +2,12 @@
 # Given a hash with numeric values, return the key for the smallest value
 
 def key_for_min_value(name_hash)
-  min_value_key = 0
+  min_key = nil
   name_hash.each do |key, value|
-    if name_hash == {}
-      return nil
-    elsif value < min_value_key
-      min_value_key = key[value]
+    if value.nil? || name_hash[min_key] > value
+      min_key = key
     end
-  end
-  min_value_key
+    return min_key
 end
 
 #clients.select{|key, hash| hash["client_id"] == "2180" }
