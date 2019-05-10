@@ -9,6 +9,5 @@ def key_for_min_value(name_hash)
     return name_hash.select {|key, value| name_hash[new_arr[0]]}
   end
 end
-end
 
 #clients.select{|key, hash| hash["client_id"] == "2180" }
