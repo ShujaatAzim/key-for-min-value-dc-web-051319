@@ -7,4 +7,5 @@ def key_for_min_value(name_hash)
     new_arr << value
     new_arr.sort
     new_arr
+  end
 end
