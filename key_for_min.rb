@@ -10,6 +10,7 @@ def key_for_min_value(name_hash)
       min_value == key[value]
     end
   end
+  min_value_key
 end
 
 #clients.select{|key, hash| hash["client_id"] == "2180" }
