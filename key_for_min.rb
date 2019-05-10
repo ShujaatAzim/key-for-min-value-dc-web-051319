@@ -7,6 +7,7 @@ def key_for_min_value(name_hash)
     if value.nil? || name_hash[min_key] > value
       min_key = key
     end
+  end
     return min_key
 end
 
